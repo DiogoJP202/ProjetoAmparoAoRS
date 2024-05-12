@@ -17,7 +17,7 @@ document.addEventListener("click", event => {
 
 function enviarResposta(texto){
     console.log(texto)
-    axios.get("http://localhost:3000/pergunta", {
+    axios.get("https://api-projetoamparoaors.onrender.com/pergunta", {
         params: {
           pergunta: texto
         }
