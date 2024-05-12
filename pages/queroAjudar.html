@@ -20,23 +20,21 @@
         <form id="Perguntas">
             <label for="IPergunta">Insira sua Pergunta</label>
             <div>
-                <textarea  type="" id="IPergunta" required minlength="4" wrap="soft">
-
-                </textarea>
+                <textarea id="IPergunta" required minlength="4" wrap="soft"></textarea>
                 <input type="submit" value=">">
             </div>
             <div id="botoes">
-                <input type="button" value="Devo ir ajudar as vítimas da Enchente?">
-                <input type="button" value="Quais suprimentos são mais importantes?">
-                <input type="button" value="Qual o melhor jeito de doar dinheiro?">
-                <input type="button" value="Por quais canais eu devo me informar?">
+                <input type="button" class="btnPergunta" value="Devo ir ajudar as vítimas da Enchente?">
+                <input type="button" class="btnPergunta" value="Quais suprimentos são mais importantes?">
+                <input type="button" class="btnPergunta" value="Qual o melhor jeito de doar dinheiro?">
+                <input type="button" class="btnPergunta" value="Por quais canais eu devo me informar?">
             </div>
             <div class="resposta">
             
             </div>
         </form>
         <section id="mapa">
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=125XxczrGlTYqwSkj9VN6pVlwvy8dKjw&ehbc=2E312F&noprof=1" frameborder="0"></iframe>
+            <iframe src="" frameborder="0"></iframe>
             <div class="conteudo">
                 <h1>Situação das Regiões do <br>
                 <strong>Rio Grande do Sul</strong></h1>
@@ -44,7 +42,7 @@
             </div>
         </section>
         <section id="noticia">
-            <iframe src="https://www.cnnbrasil.com.br/tudo-sobre/rio-grande-do-sul/" frameborder="0"></iframe>
+            <iframe src="" frameborder="0"></iframe>
             <div id="noticias">
                 <a href="https://sosenchentes.rs.gov.br/inicial" target="_blank">Canal Oficial de Informações do Governo</a>
                 <a href="https://www.defesacivil.rs.gov.br/inicial" target="_blank">Atualizações de Emergência da Defesa Cívil</a>
@@ -76,5 +74,7 @@
             </div>
         </section>
     </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../assets/js/index.js"></script>
 </body>
 </html>

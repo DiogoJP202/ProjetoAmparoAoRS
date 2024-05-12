@@ -20,16 +20,16 @@
         <form id="Perguntas">
             <label for="IPergunta">Insira sua Pergunta</label>
             <div>
-                <textarea  type="" id="IPergunta" required minlength="4" wrap="soft">
+                <textarea id="IPergunta" required minlength="4" wrap="soft">
 
                 </textarea>
                 <input type="submit" value=">">
             </div>
             <div id="botoes">
-                <input type="button" value="Principais cuidados com a água">
-                <input type="button" value="Como armazenar meus suprimentos?">
-                <input type="button" value="Como ajudar meus animais?">
-                <input type="button" value="Como se manter aquecido?">
+                <input type="button" class="btnPergunta" value="Principais cuidados com a água">
+                <input type="button" class="btnPergunta" value="Como armazenar meus suprimentos?">
+                <input type="button" class="btnPergunta" value="Como ajudar meus animais?">
+                <input type="button" class="btnPergunta" value="Como se manter aquecido?">
             </div>
             <div class="resposta">
             
@@ -72,5 +72,7 @@
             </div>
         </section>
     </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../assets/js/index.js"></script>
 </body>
 </html>

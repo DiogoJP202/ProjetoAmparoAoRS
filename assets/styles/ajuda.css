@@ -35,8 +35,7 @@ main #Perguntas > label{
 
 main #Perguntas textarea{
     width: 80vw;
-    word-wrap: break-word;
-    word-break: break-all;
+    padding: 15px;
     resize: none;
     height: 175px;
     border: 0;
