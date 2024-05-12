@@ -168,3 +168,26 @@ main #Perguntas input[type=submit]{
     padding: 30px;
     color: var(--cor3);
 }
+
+.resposta{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resposta h2{
+    font-style: italic;
+    font-size: 2em;
+}
+
+.resposta p{
+    text-align: center;
+    width: 80%;
+    font-size: 2em;
+}
+
+.resposta a{
+    color: var(--cor2);
+    text-decoration: none;
+}

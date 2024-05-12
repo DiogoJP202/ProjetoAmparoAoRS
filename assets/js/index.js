@@ -23,7 +23,7 @@ function enviarResposta(texto){
         }
       })
     .then(response => {
-        localResultado.innerHTML +=  response.data;
+        localResultado.innerHTML =  response.data;
     })
     .catch(error => console.log(error));
 }
