@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px){
+    #sobre{
+        flex-direction: row !important;
+        justify-content: space-around;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #mapa{
+        flex-direction: row !important;
+    }
+
+    #noticia{
+        flex-direction: row !important;
+        justify-content: space-between;
+    }
+}

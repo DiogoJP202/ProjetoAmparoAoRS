@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url(cores.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Lora", 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 10px;
+    background-color: #EBEDEE;
+    background-image: url(../images/background.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header > img, main #sobre img{
+    width: 80%;
+    max-width: 400px;
+}
+
+header > h2{
+    font-family: "lato", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+main #atendimentos{ 
+    text-align: center;
+}
+
+main #atendimentos > h1{
+    margin: 40px 0px;
+    font-family: "lato", Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+main #atendimentos #links{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main #atendimentos #links a{
+    min-width: 175px;
+    padding: 25px 10px;
+    margin: 3px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "lato", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+    background-color: var(--cor3);
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px #0000009c;
+}
+
+main #sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: var(--cor2);
+}
+
+main #sobre article{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+    max-width: 400px;
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: var(--cor3);
+}
+
+main #sobre article h2{
+    font-family: "lato";
+    font-size: 1.5em;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor3);
+}
+
+footer section{
+    padding: 40px;
+}
+
+footer section > i{
+    font-family: "lato";
+    font-style: italic;
+    font-size: 1.7em;
+    font-weight: 200;
+    color: #fff;
+}
+
+footer section > strong{
+    font-size: 3em;
+    font-family: "lato";
+    color: #fff;
+}
+
+footer section:last-child{
+    text-align: right;
+}
+
+footer section:last-child{
+    color: #ffffff7e;
+}
+
+footer section:last-child a{
+    font-size: 1.3em;
+    font-family: "lato";
+    color: #fff;
+    text-decoration: none;
+}
