@@ -12,7 +12,7 @@ form.addEventListener("submit", event => {
 document.addEventListener("click", event => {
     const element = event.target;
 
-    if(element.classList.contaiqns("btnPergunta")) return enviarResposta(element.value);
+    if(element.classList.contains("btnPergunta")) return enviarResposta(element.value);
 });
 
 function enviarResposta(texto){
