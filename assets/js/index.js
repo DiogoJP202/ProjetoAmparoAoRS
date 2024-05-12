@@ -12,12 +12,13 @@ form.addEventListener("submit", event => {
 document.addEventListener("click", event => {
     const element = event.target;
 
-    if(element.classList.contains("btnPergunta")) return enviarResposta(element.value);
+    if(element.classList.contaiqns("btnPergunta")) return enviarResposta(element.value);
 });
 
 function enviarResposta(texto){
     console.log(texto)
-    axios.get("https://api-projetoamparoaors.onrender.com/pergunta", {
+    const newLocal = "https://api-projetoamparoaors.onrender.com/pergunta";
+    axios.get(newLocal, {
         params: {
           pergunta: texto
         }

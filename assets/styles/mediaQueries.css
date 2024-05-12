@@ -11,6 +11,7 @@
 
     #mapa{
         flex-direction: row !important;
+        justify-content: space-evenly !important;
     }
 
     #noticia{
