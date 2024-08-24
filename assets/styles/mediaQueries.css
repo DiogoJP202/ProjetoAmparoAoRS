@@ -1,3 +1,14 @@
+@media (max-width: 450px) {
+    main #Perguntas > div{
+        display: flex;
+        flex-direction: column;
+    }
+    main #Perguntas input[type=submit]{
+        width: 75px;
+        margin: 30px;
+    }
+}
+
 @media screen and (min-width: 768px){
     #sobre{
         flex-direction: row !important;
